@@ -17,6 +17,9 @@ if [ ! -f .auditignore ]; then
 \.md$
 \.ttf$
 ^\./\.audit
+audit_next.sh
+audit_init.sh
+audit_file.sh
 EOF
 fi
 
